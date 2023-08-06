@@ -1,7 +1,8 @@
 import random
 
-def dice_roll(response):
-    while response=='y':
+x = "y"
+  
+while x == "y":
     no= random.randint(1,6)
 
     if no == 1:
